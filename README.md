@@ -1,7 +1,7 @@
 # Prospero's Dream - Public Interface
 
 
-A retro terminal interface for the Mothership RPG module "A Pond of Flesh". This web application simulates a computer terminal for players to interact with during their gaming session.
+A retro terminal interface for the Mothership RPG module "A Pound of Flesh". This web application simulates a computer terminal for players to interact with during their gaming session.
 
 ## Features
 
