@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import BootScreen from './components/BootScreen';
 import WelcomeTab from './components/WelcomeTab';
 import TerminalTab from './components/TerminalTab';
@@ -106,21 +105,6 @@ export default function Home() {
           background: 'radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0.8) 100%)',
         }}
       />
-
-      {/* Home Button */}
-      <Link
-        href="/"
-        className="fixed bottom-4 right-0 z-50 bg-pink-900 bg-opacity-30 border border-pink-600 border-l-0 px-4 text-pink-400 hover:text-pink-300 hover:bg-pink-900 hover:bg-opacity-50 transition-all cursor-pointer rounded-r"
-        style={{
-          writingMode: 'vertical-rl',
-          textOrientation: 'mixed',
-          transform: 'rotate(180deg)',
-          boxShadow: '0 0 10px rgba(236, 72, 153, 0.3)',
-          textShadow: '0 0 5px currentColor'
-        }}
-      >
-        <span className="font-bold text-base">Home</span>
-      </Link>
 
       <div className="max-w-5xl mx-auto relative z-10 flex flex-col h-[calc(100vh-1rem)] sm:h-[calc(100vh-2rem)]">
         {/* TUI Border Container */}
